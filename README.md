@@ -1,2 +1,2 @@
 # Description
-PoC Growthland API implemented by Loopback 4
+PoC Growthland API implemented by Loopback 3
