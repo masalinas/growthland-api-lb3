@@ -1,2 +1,2 @@
-# growthland-api-lb3
-growthland-api-lb3
+# Description
+PoC Growthland API implemented by Loopback 4
