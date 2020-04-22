@@ -12,4 +12,8 @@ lb export-api-def -o swagger.json
 
 ## STEP03: generate C# models from swagger.json specification file. Install swagger generator
 
-java -jar swagger-codegen-cli.jar generate -i swagger.json -l csharp
+java -jar swagger-codegen-cli-3.0.19.jar generate -i swagger.json -l csharp
+
+## STEP04: generate Angular Typescript from swagger.json specification file. Install swagger generator
+
+java -jar swagger-codegen-cli-3.0.19.jar generate -i swagger.json -l typescript-angular
