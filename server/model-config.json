@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "ArcMaster2": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "ArcMaster": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "AssArchivo": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "ArcRecurso": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "ArcMasterClasificacion": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "CmpCampanna": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "CmpCampannaFormato": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "CmpCampannaPropuesta": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "CmpLogActividad": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "AssContenedor": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "CmpOrdenTrabajo": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "CmpOrdenTrabajoLinea": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "GenFormatoPublicacion": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "TmpFecha": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "GenCliente": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "GenMarca": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "SegAutorizacion": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "SegUsuario": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "ArcDocumento": {
+    "dataSource": "growthlandDS",
+    "public": true
+  },
+  "ArcEmitible": {
+    "dataSource": "growthlandDS",
+    "public": true
+  }
+}
