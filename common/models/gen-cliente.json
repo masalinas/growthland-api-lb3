@@ -1,5 +1,5 @@
 {
-  "name": "GenCliente",
+  "name": "Cliente",
   "options": {
     "idInjection": false,
     "mssql": {

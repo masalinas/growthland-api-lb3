@@ -1,17 +1,16 @@
 {
-  "name": "CmpLogActividad",
+  "name": "LogActividad",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "CMP_LOG_ACTIVIDAD"
     }
   },
   "properties": {
     "idLogActividad": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "id": 1,
@@ -25,9 +24,8 @@
       }
     },
     "idCampanna": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -40,9 +38,8 @@
       }
     },
     "idOrdenTrabajo": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -55,7 +52,7 @@
       }
     },
     "indAccion": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -70,9 +67,8 @@
       }
     },
     "fecHora": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -85,7 +81,7 @@
       }
     },
     "indEstado": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -100,7 +96,7 @@
       }
     },
     "destinatario": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 100,
       "precision": null,
@@ -115,7 +111,7 @@
       }
     },
     "usuarioAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -130,9 +126,8 @@
       }
     },
     "fecAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -145,7 +140,7 @@
       }
     },
     "usuarioCreaAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -160,9 +155,8 @@
       }
     },
     "fecCreaAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {

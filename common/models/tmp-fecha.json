@@ -1,17 +1,16 @@
 {
-  "name": "TmpFecha",
+  "name": "Fecha",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "TMP_FECHA"
     }
   },
   "properties": {
     "idFecha": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 10,
       "scale": 0,
       "id": 1,
@@ -25,9 +24,8 @@
       }
     },
     "fecha": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {

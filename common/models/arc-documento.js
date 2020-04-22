@@ -1,3 +1,3 @@
-module.exports = function(ArcDocumento) {
-    
+module.exports = function(Documento) {
+        
 };

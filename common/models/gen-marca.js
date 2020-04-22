@@ -1,1 +1,3 @@
-module.exports = function(/*GenMarca*/){};
+module.exports = function(Marca) { 
+    
+};

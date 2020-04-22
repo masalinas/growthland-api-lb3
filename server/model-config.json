@@ -13,83 +13,83 @@
       "./mixins"
     ]
   },
-  "ArcMaster2": {
+  "Master2": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "ArcMaster": {
+  "Master": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "AssArchivo": {
+  "Archivo": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "ArcRecurso": {
+  "Recurso": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "ArcMasterClasificacion": {
+  "MasterClasificacion": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "CmpCampanna": {
+  "Campanna": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "CmpCampannaFormato": {
+  "CampannaFormato": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "CmpCampannaPropuesta": {
+  "CampannaPropuesta": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "CmpLogActividad": {
+  "LogActividad": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "AssContenedor": {
+  "Contenedor": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "CmpOrdenTrabajo": {
+  "OrdenTrabajo": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "CmpOrdenTrabajoLinea": {
+  "OrdenTrabajoLinea": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "GenFormatoPublicacion": {
+  "FormatoPublicacion": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "TmpFecha": {
+  "Fecha": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "GenCliente": {
+  "Cliente": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "GenMarca": {
+  "Marca": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "SegAutorizacion": {
+  "Autorizacion": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "SegUsuario": {
+  "Usuario": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "ArcDocumento": {
+  "Documento": {
     "dataSource": "growthlandDS",
     "public": true
   },
-  "ArcEmitible": {
+  "Emitible": {
     "dataSource": "growthlandDS",
     "public": true
   }

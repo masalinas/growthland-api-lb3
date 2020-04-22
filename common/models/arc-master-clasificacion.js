@@ -1,1 +1,3 @@
-module.exports = function(/*ArcMasterClasificacion*/){};
+module.exports = function(MasterClasificacion) {
+    
+};

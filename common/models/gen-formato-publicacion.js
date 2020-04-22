@@ -1,1 +1,3 @@
-module.exports = function(/*GenFormatoPublicacion*/){};
+module.exports = function(FormatoPublicacion) { 
+    
+};

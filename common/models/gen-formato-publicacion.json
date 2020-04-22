@@ -1,17 +1,16 @@
 {
-  "name": "GenFormatoPublicacion",
+  "name": "FormatoPublicacion",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "GEN_FORMATO_PUBLICACION"
     }
   },
   "properties": {
     "idFormatoPublicacion": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -24,7 +23,7 @@
       }
     },
     "codFormatoExt": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 100,
       "precision": null,
@@ -39,7 +38,7 @@
       }
     },
     "nomFormato": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -54,7 +53,7 @@
       }
     },
     "desObservaciones": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 2000,
       "precision": null,
@@ -69,7 +68,7 @@
       }
     },
     "indPrincipal": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 1,
       "precision": null,
@@ -84,7 +83,7 @@
       }
     },
     "usuarioAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -99,9 +98,8 @@
       }
     },
     "fecAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -114,7 +112,7 @@
       }
     },
     "usuarioCreaAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -129,9 +127,8 @@
       }
     },
     "fecCreaAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {

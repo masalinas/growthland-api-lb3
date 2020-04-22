@@ -1,17 +1,16 @@
 {
-  "name": "AssArchivo",
+  "name": "Archivo",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "ASS_ARCHIVO"
     }
   },
   "properties": {
     "idArchivo": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "id": 1,
@@ -25,7 +24,7 @@
       }
     },
     "codArchivo": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -40,7 +39,7 @@
       }
     },
     "nomArchivo": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 200,
       "precision": null,
@@ -55,9 +54,8 @@
       }
     },
     "idContenedor": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -70,7 +68,7 @@
       }
     },
     "ubicacion": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 200,
       "precision": null,
@@ -85,7 +83,7 @@
       }
     },
     "tipoArchivo": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -100,9 +98,8 @@
       }
     },
     "peso": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 10,
       "scale": 0,
       "mssql": {
@@ -115,9 +112,8 @@
       }
     },
     "duracion": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 10,
       "scale": 0,
       "mssql": {
@@ -130,7 +126,7 @@
       }
     },
     "resolucion": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 50,
       "precision": null,
@@ -145,9 +141,8 @@
       }
     },
     "ancho": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 10,
       "scale": 0,
       "mssql": {
@@ -160,9 +155,8 @@
       }
     },
     "alto": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 10,
       "scale": 0,
       "mssql": {
@@ -175,9 +169,8 @@
       }
     },
     "fecIngreso": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -190,7 +183,7 @@
       }
     },
     "usuarioAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -205,9 +198,8 @@
       }
     },
     "fecAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -220,7 +212,7 @@
       }
     },
     "usuarioCreaAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -235,9 +227,8 @@
       }
     },
     "fecCreaAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {

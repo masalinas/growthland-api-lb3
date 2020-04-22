@@ -1,2 +1,2 @@
-module.exports = function(GenCliente) {    
+module.exports = function(Cliente) {    
 };

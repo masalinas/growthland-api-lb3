@@ -1,1 +1,3 @@
-module.exports = function(/*CmpOrdenTrabajo*/){};
+module.exports = function(OrdenTrabajo) { 
+    
+};

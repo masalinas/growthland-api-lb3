@@ -1,15 +1,15 @@
 {
-  "name": "SegAutorizacion",
+  "name": "Autorizacion",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "SEG_AUTORIZACION"
     }
   },
   "properties": {
     "idAutorizacion": {
-      "type": "String",
+      "type": "number",
       "required": true,
       "length": 100,
       "precision": null,
@@ -25,9 +25,8 @@
       }
     },
     "idUsuario": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -40,7 +39,7 @@
       }
     },
     "autorizacion": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,

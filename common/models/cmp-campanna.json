@@ -1,17 +1,16 @@
 {
-  "name": "CmpCampanna",
+  "name": "Campanna",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "CMP_CAMPANNA"
     }
   },
   "properties": {
     "idCampanna": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "id": 1,
@@ -25,7 +24,7 @@
       }
     },
     "codCampannaExt": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 100,
       "precision": null,
@@ -40,7 +39,7 @@
       }
     },
     "nomCampanna": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -55,7 +54,7 @@
       }
     },
     "desDescripcion": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 500,
       "precision": null,
@@ -70,7 +69,7 @@
       }
     },
     "desBriefing": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 2000,
       "precision": null,
@@ -85,9 +84,8 @@
       }
     },
     "idCliente": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -100,9 +98,8 @@
       }
     },
     "idMarca": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -115,9 +112,8 @@
       }
     },
     "fecInicio": {
-      "type": "Date",
+      "type": "date",
       "required": false,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -130,9 +126,8 @@
       }
     },
     "fecFin": {
-      "type": "Date",
+      "type": "date",
       "required": false,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -145,7 +140,7 @@
       }
     },
     "indEstado": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -160,9 +155,8 @@
       }
     },
     "idDocumento": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -175,7 +169,7 @@
       }
     },
     "usuarioAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -190,9 +184,8 @@
       }
     },
     "fecAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -205,7 +198,7 @@
       }
     },
     "usuarioCreaAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -220,9 +213,8 @@
       }
     },
     "fecCreaAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -235,9 +227,8 @@
       }
     },
     "fechaRecepcion": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {

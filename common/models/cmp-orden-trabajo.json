@@ -1,17 +1,16 @@
 {
-  "name": "CmpOrdenTrabajo",
+  "name": "OrdenTrabajo",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "CMP_ORDEN_TRABAJO"
     }
   },
   "properties": {
     "idOrdenTrabajo": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "id": 1,
@@ -25,9 +24,8 @@
       }
     },
     "idCampannaPropuesta": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -40,9 +38,8 @@
       }
     },
     "idMaster": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -55,9 +52,8 @@
       }
     },
     "fecOrden": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -70,7 +66,7 @@
       }
     },
     "indTipo": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 100,
       "precision": null,
@@ -85,7 +81,7 @@
       }
     },
     "indEstadoOt": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 100,
       "precision": null,
@@ -100,7 +96,7 @@
       }
     },
     "usuarioAud": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 30,
       "precision": null,
@@ -115,9 +111,8 @@
       }
     },
     "fecAud": {
-      "type": "Date",
+      "type": "date",
       "required": false,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -130,7 +125,7 @@
       }
     },
     "usuarioCreaAud": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 30,
       "precision": null,
@@ -145,9 +140,8 @@
       }
     },
     "fecCreaAud": {
-      "type": "Date",
+      "type": "date",
       "required": false,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -160,9 +154,8 @@
       }
     },
     "idCampanna": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {

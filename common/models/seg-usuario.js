@@ -1,1 +1,3 @@
-module.exports = function(/*SegUsuario*/){};
+module.exports = function(Usuario) { 
+    
+};

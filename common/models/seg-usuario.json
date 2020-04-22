@@ -1,17 +1,16 @@
 {
-  "name": "SegUsuario",
+  "name": "Usuario",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "SEG_USUARIO"
     }
   },
   "properties": {
     "idUsuario": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "id": 1,
@@ -25,7 +24,7 @@
       }
     },
     "nomUsuario": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -40,7 +39,7 @@
       }
     },
     "contrasena": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 60,
       "precision": null,
@@ -55,9 +54,8 @@
       }
     },
     "activo": {
-      "type": "Number",
+      "type": "number",
       "required": false,
-      "length": null,
       "precision": 3,
       "scale": 0,
       "mssql": {

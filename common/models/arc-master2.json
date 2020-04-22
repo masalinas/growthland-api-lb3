@@ -1,17 +1,16 @@
 {
-  "name": "ArcMaster2",
+  "name": "Master2",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "ARC_MASTER2"
     }
   },
   "properties": {
     "idMaster2": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "id": 1,
@@ -25,7 +24,7 @@
       }
     },
     "codMasterExt": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 100,
       "precision": null,
@@ -40,9 +39,8 @@
       }
     },
     "idCampannaFormato": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -55,9 +53,8 @@
       }
     },
     "idCliente": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -70,7 +67,7 @@
       }
     },
     "indEstado": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -85,9 +82,8 @@
       }
     },
     "fechaRecepcion": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -100,9 +96,8 @@
       }
     },
     "idArchivo": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -115,7 +110,7 @@
       }
     },
     "nomArchivo": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 200,
       "precision": null,
@@ -130,7 +125,7 @@
       }
     },
     "ubicacion": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 2000,
       "precision": null,
@@ -145,7 +140,7 @@
       }
     },
     "usuarioAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -160,9 +155,8 @@
       }
     },
     "fecAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -175,7 +169,7 @@
       }
     },
     "usuarioCreaAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -190,9 +184,8 @@
       }
     },
     "fecCreaAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -205,7 +198,7 @@
       }
     },
     "indDemo": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 1,
       "precision": null,
@@ -220,7 +213,7 @@
       }
     },
     "desMotivoMejora": {
-      "type": "String",
+      "type": "string",
       "required": false,
       "length": 200,
       "precision": null,
@@ -235,7 +228,7 @@
       }
     },
     "titArchivo": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -250,7 +243,7 @@
       }
     },
     "desDescripcion": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 500,
       "precision": null,

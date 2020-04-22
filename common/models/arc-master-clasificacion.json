@@ -1,17 +1,16 @@
 {
-  "name": "ArcMasterClasificacion",
+  "name": "MasterClasificacion",
   "options": {
     "idInjection": false,
     "mssql": {
-      "schema": "dbo",
+      "schema": "PUBLISHER",
       "table": "ARC_MASTER_CLASIFICACION"
     }
   },
   "properties": {
     "idMasterClasificacion": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "id": 1,
@@ -25,9 +24,8 @@
       }
     },
     "idMaster": {
-      "type": "Number",
+      "type": "number",
       "required": true,
-      "length": null,
       "precision": 19,
       "scale": 0,
       "mssql": {
@@ -40,7 +38,7 @@
       }
     },
     "indClasificador": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 100,
       "precision": null,
@@ -55,9 +53,8 @@
       }
     },
     "fechaClasificacion": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -70,7 +67,7 @@
       }
     },
     "desMotivo": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 200,
       "precision": null,
@@ -85,7 +82,7 @@
       }
     },
     "usuarioAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -100,9 +97,8 @@
       }
     },
     "fecAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {
@@ -115,7 +111,7 @@
       }
     },
     "usuarioCreaAud": {
-      "type": "String",
+      "type": "string",
       "required": true,
       "length": 30,
       "precision": null,
@@ -130,9 +126,8 @@
       }
     },
     "fecCreaAud": {
-      "type": "Date",
+      "type": "date",
       "required": true,
-      "length": null,
       "precision": null,
       "scale": null,
       "mssql": {

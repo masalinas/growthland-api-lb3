@@ -1,1 +1,3 @@
-module.exports = function(/*SegAutorizacion*/){};
+module.exports = function(Autorizacion) { 
+    
+};

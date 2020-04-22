@@ -1,1 +1,3 @@
-module.exports = function(/*AssArchivo*/){};
+module.exports = function(Archivo) { 
+    
+};

@@ -1,1 +1,3 @@
-module.exports = function(/*CmpCampanna*/){};
+module.exports = function(Campanna) {
+    
+};

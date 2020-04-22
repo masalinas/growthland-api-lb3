@@ -1,1 +1,3 @@
-module.exports = function(/*CmpCampannaFormato*/){};
+module.exports = function(CampannaFormato) { 
+    
+};

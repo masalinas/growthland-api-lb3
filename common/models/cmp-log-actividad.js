@@ -1,1 +1,3 @@
-module.exports = function(/*CmpLogActividad*/){};
+module.exports = function(LogActividad) { 
+    
+};

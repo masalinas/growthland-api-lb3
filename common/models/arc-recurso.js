@@ -1,1 +1,3 @@
-module.exports = function(/*ArcRecurso*/){};
+module.exports = function(Recurso) { 
+
+};

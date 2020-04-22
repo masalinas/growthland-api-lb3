@@ -1,5 +1,5 @@
 {
-  "name": "ArcDocumento",
+  "name": "Documento",
   "options": {
     "idInjection": false,
     "mssql": {

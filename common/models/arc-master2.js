@@ -1,1 +1,3 @@
-module.exports = function(/*ArcMaster2*/){};
+module.exports = function(Master2) { 
+    
+};

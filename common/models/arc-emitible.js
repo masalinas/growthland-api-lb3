@@ -1,1 +1,3 @@
-module.exports = function(/*ArcEmitible*/){};
+module.exports = function(Emitible) {
+    
+};
