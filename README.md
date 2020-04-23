@@ -2,6 +2,10 @@
 
 PoC Growthland API implemented by Loopback 3
 
+## Install SQL Server connector
+
+npm install loopback-connector-mssql --save
+
 ## STEP01: Create models throw inverse engineering from database. Installed [loopback-discover-models](https://github.com/slively/loopback-discover-models)
 
 node cli.js --prompt
